@@ -1,1 +1,21 @@
-<p>login-page works!</p>
+<div class="flex flex-column"> <!-- vienen de primeflex -->
+  <span class="text-lg mb-4">Login</span> <!-- text-lg  lg = large -->
+  <mat-form-field> <!-- como empieza por mat es que viene de angular material -->
+    <mat-label>Usuario</mat-label>
+    <input type="text" matInput placeholder="Nombre de usuario">
+  </mat-form-field>
+
+  <mat-form-field> <!-- como empieza por mat es que viene de angular material -->
+    <mat-label>Contraseña</mat-label>
+    <input type="text" matInput placeholder="Contraseña">
+  </mat-form-field>
+
+  <button mat-button mat-flat-button color="primary">
+    <mat-icon>save</mat-icon>
+    Ingresar
+  </button>
+
+  <div class="flex justify-content-end mt-5">
+    <a routerLink="/auth/new-account">¿Ya tienes una cuenta?</a>
+  </div>
+</div>
