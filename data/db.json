@@ -8,22 +8,6 @@
   ],
   "heroes": [
     {
-      "id": "dc-batman",
-      "superhero": "Batman",
-      "publisher": "DC Comics",
-      "alter_ego": "Bruce Wayne",
-      "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne"
-    },
-    {
-      "id": "dc-superman",
-      "superhero": "Superman",
-      "publisher": "DC Comics",
-      "alter_ego": "Kal-El",
-      "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
-    },
-    {
       "id": "dc-flash",
       "superhero": "Flash",
       "publisher": "DC Comics",
@@ -166,6 +150,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "aK0qjGs",
+      "superhero": "Ayoub",
+      "publisher": "DC Comics",
+      "alter_ego": "Strider",
+      "first_appearance": "Comic Udemy 2023 #1",
+      "characters": "Ayoub",
+      "alt_img": "https://img.wattpad.com/cover/128636995-256-k518063.jpg"
     }
   ]
 }
